@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// Tabel
+.table {
+    background-color: #fff; /* Warna latar belakang tabel */
+    color: #333; /* Warna teks dalam tabel */
+    border: 1px solid #ddd; /* Border tabel */
+    border-collapse: collapse; /* Gabungkan border yang berdekatan */
+}
+
+.table th, .table td {
+    padding: 8px; /* Padding di sel tabel */
+    border: 1px solid #ddd; /* Border di sel tabel */
+}
+
+// Tombol
+.btn-danger {
+    background-color: red; /* Warna latar belakang tombol */
+    border-color: red; /* Warna border tombol */
+    color: white; /* Warna teks pada tombol */
+}
+
+.btn-danger:hover {
+    background-color: lightpink; /* Warna latar belakang tombol saat dihover */
+    border-color: lightpink; /* Warna border tombol saat dihover */
+    color: white; /* Warna teks pada tombol saat dihover */
+}
+
+// Gaya Umum
+body {
+    font-family: 'Nunito', sans-serif; /* Gunakan font Nunito */
+    font-size: 16px; /* Ukuran teks default */
+}
+
+.container {
+    margin-top: 20px; /* Jarak atas kontainer dari atas halaman */
+}
